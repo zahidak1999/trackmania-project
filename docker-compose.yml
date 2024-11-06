@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  formatter:
+      image: python:3.12.6
+      container_name: code-formatter
+      working_dir: /app
+      volumes:
+        - .:/app
+      command: bash -c "pip install black isort && black . && isort ."
+
