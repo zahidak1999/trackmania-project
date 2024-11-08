@@ -1,0 +1,15 @@
+agents/*.pth
+
+.venv/
+venv/
+env/
+.env/
+
+.idea/
+.vscode/
+
+Thumbs.db
+.DS_Store
+
+/shelf/
+/workspace.xml
