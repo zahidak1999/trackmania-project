@@ -1,5 +1,4 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/sac_agent.pth
-/ppo_agent.pth
+agents/*.pth
